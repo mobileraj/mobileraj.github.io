@@ -59,6 +59,6 @@ The cartoon describing the interaction/flow is shown below
 Since this data has been collected over few months, its best to export it to an analytics engine for performing analysis. This is facilitated using IBM DataStage 9.1.2 tool to extract the JSON documents, normalize and map them into tables on the BLU Acceleration service. See the video [here](http://youtu.be/-Ky7QWBcGFk)
 
 #### Step 3: Analyzing the data
-Now that the data is available on the cloud for analysis using BLU Acceleration service, we use the power of [R](http://www.r-project.org) to see the customer distribution by state. You can see the video of the interaction [here]()
+Now that the data is available on the cloud for analysis using BLU Acceleration service, the business analyst/data scientist can use the power of [R](http://www.r-project.org) to see the customer distribution by state. You can see the video of the interaction [here](http://youtu.be/8zByiS5OoGc). You can see the normalized tables around customers, orders and products that was created in the previous step in this video.
 The cartoon describing the interaction/flow is shown below
 ![Context1]({{ site.url }}/assets/DataWorkFlow2.png)
