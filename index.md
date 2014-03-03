@@ -1,6 +1,6 @@
 ---
 layout: page
-title: mobileraj.github.io
+title: Gurukulam
 tagline: learnings of mobileraj
 ---
 #### Learnings
