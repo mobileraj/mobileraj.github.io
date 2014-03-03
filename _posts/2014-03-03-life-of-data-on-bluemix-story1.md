@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lifecycle of data on BlueMix - A Sales Scenario Story"
+title: "Lifecycle of data on BlueMix - The Pulse Sales App Story"
 description: ""
 category: 
 tags: []
