@@ -12,7 +12,7 @@ This post explores how data that is created from users using mobile apps in a sa
 <iframe width="500" height="400" src="http://www.youtube.com/embed/EoItVuWzg7U" frameborder="0" allowfullscreen="allowfullscreen">PulseAppMovie</iframe>
 
 #### About the scenario
-This user scenario is that of the Homestead company that we introduced at IBM Pulse mainstage demo. The sales associates are using the mobile app to help followup with customers, maintain better relations and enhance the overall buying experience. In short they go from being sales helper to personal shopper.
+This user scenario is that of the fictional Homestead company that we introduced at IBM Pulse mainstage demo. The sales associates are using the mobile app to help followup with customers, maintain better relations and enhance the overall buying experience. In short they go from being sales helper to personal shopper.
 Fast forward to year from this launch of this, Homestead has this deployed to several stores and several hundred sales associates are using this app in servicing customers. The need is for the business to reason about this adhoc customer notes that has been captured by the sales associates.
 The overall context for this post starts with the below cartoon on various interacting roles and system parts.
 ![Context]({{ site.url }}/assets/DataWorkFlow.png)
