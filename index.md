@@ -11,8 +11,8 @@ tagline: learnings of mobileraj
   {% endfor %}
 </ul>
 
-#### Musings
-More to come
-
 #### Creations
+<a href="https://github.com/mobileraj/findatech">Findatech</a> - A simple Cordova hybrid app to display results of geo queries supported by Cloudant. The scenario is that of *within* and *overlap* queries
+
+#### Fun
 More to come
