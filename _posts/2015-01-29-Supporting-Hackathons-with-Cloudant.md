@@ -23,7 +23,7 @@ curl -H "Content-Type: application/json" https://mobileraj.cloudant.com/sfbikelo
 
 [Geo](https://docs.cloudant.com/geo.html#example:-querying-a-cloudant-geo-index) specific queries are also supported -
 Getting all entries within a boundingbox:
-{% highligh bash %}
+{% highlight bash %}
 https://mobileraj.cloudant.com/sfbikelots/_design/SpatialView/_geo/lots?bbox=37,-122,37.8,-122.5&include_docs=true
 {% endhighlight %}
 
