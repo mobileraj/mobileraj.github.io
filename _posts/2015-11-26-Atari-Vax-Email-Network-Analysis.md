@@ -19,6 +19,7 @@ It uses a simple state machine model of 3 states - from/to/reset to extract and 
 ### Getting a network
 I then used <a href="http://networkx.github.io/"> NetworkX </a> library.
 
+![graph](https://github.com/mobileraj/atariGraph/blob/master/vaxemail.png?raw=true)
 To be continued....
 
 
