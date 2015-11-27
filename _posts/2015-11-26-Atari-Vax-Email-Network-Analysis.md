@@ -24,7 +24,11 @@ To be continued....
 
 ### References
 [1] Source of the data - http://www.jmargolin.com/vmail/vmail.htm
+
 [2] Python notebook to parse text and extract network list -https://github.com/mobileraj/atariGraph/blob/master/main.ipynb 
+
 [3] Github repo for this project - https://github.com/mobileraj/atariGraph
+
 [4] Python notebook to get a GraphML file - https://github.com/mobileraj/atariGraph/blob/master/PyGraphML.ipynb
-[5] Python notebook for doing graph analysis - https://github.com/mobileraj/atariGraph/blob/master/Graph%20Analysis.ipynb
+
+\[5] Python notebook for doing graph analysis - https://github.com/mobileraj/atariGraph/blob/master/Graph%20Analysis.ipynb
