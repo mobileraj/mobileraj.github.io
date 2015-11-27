@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>On Right Location?</title>
+    <meta name="description" content="Exploring challenges arund the location context">
+    <meta name="author" content="Raj Balasubramanian">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">mobileraj.github.io</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h3>On Right Location? </h3>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>02 May 2014</span>
+    </div>
+    <div class="content">
+      <p>This post explores some thinking around the challenges surrounding the concept of location in a mobile scenario. For this paper, our assumption is that of a user carrying a smart phone or some wearable that has enough compute power to react to the notion of where it is at (location). This reaction can be it passively sending the location info or actively engaging the user into a newer experience.</p>
+
+<h3 id='micro_and_macro'>Micro and macro</h3>
+
+<p>Since the user can be in a confined manmade structure (as in visiting a mall or a store in a mall or running to an ER) or moving across a larger area (like a city block, driving cross country, climbing a mountain) we need to treat them separately, as they have unique technical and behavioural challenges. Hence we introduce the concept of micro and macro locations. Micro-location are region/area definition for a range of centimeters to few meters. These are tagged area/region as defined by the technology used in identifying that region.</p>
+
+<h3 id='earth_is_flat'>Earth is flat</h3>
+
+<p>In most models of the earth, its gets a planar treatment. For small areas the curvature of the earth doesnt manifest itself and the notion of a flat earth is a great approximation for us to treat various properties of the location in question. This includes things like a few acres of land, driving in your favourite city blocks or exploring a maze in your office buildings. There are other variation in the non-planar earth model starting with the simpler spherical and the more elaborate ellipsoidal. If you ever have seen words like Mercator projection or Robinson projection, its trying to project a geometry (point, line or polygon) as represented on real earth onto a flat surface such as a map.</p>
+
+<h3 id='space_and_time'>Space and time</h3>
+
+<p>Capturing the static image of a location or events in a given area as a map is interesting but it gets more informative when the time dimension is added. With time you can better comprehend events and processes occuring in space, which provides the rich insight so desired in making the right decisions.</p>
+
+<h3 id='additional_datatypes'>Additional datatypes</h3>
+
+<p>We have already seen that location constructs introduces the notion of a geometry data type in how we capture information. Starting with a simple point (lat/lon) to line (an ordered pairs of points) to polygon (an ordered pairs of points that is closed), the data to be stored and indexed for supporting the queries is much different than typical textual or numerical data. Queries also come in several forms to answer spatial questions such as if a point is <em>within</em> a polygon or if two lines <em>intersect</em> or if a point is <em>beyond</em> a given line by some distance and so on. This needs to be accommodated in how the data is stored and indexed but also at scale. The database research has produced several clever store and indexing schemes to support effective retrieval of spatial and temporal data.</p>
+
+<h3 id='battery_connectivity_and_such'>Battery, connectivity and such</h3>
+
+<p>Since the location data is typically being collected on smart devices, we need to worry about several uncertainities such as battery drain when location is collected more often. Or what happens if there is an error in GPS reading. There is also the loss of connectivity during data transmission of the collected data andif you were paying for a crappy data plan, then to accommodate effective ways to send location data without incurring undue costs.</p>
+
+<p>There are many more areas that we will cover as we explore key location usecases and scenarios over the next posts, but this should get you some appreciation of why location is unique in what we need to address for a effective solution around using location data.</p>
+
+<p>Until next time..keep moving.</p>
+    </div>
+
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#geolocation-ref">geolocation <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#mobile-ref">mobile <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/2014/03/03/life-of-data-on-bluemix-story1" title="Lifecycle of data on BlueMix - The Pulse Sales App Story">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/2014/08/20/Thinking-Fast-Slow" title="Raw notes - Thinking Fast and Slow">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2015 Raj Balasubramanian
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

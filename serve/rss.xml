@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>mobileraj.github.io</title>
+        <description>mobileraj.github.io - Raj Balasubramanian</description>
+        <link>http://mobileraj.github.io</link>
+        <link>http://mobileraj.github.io</link>
+        <lastBuildDate>2015-11-26T21:05:19-06:00</lastBuildDate>
+        <pubDate>2015-11-26T21:05:19-06:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>new post</title>
+                <description></description>
+                <link>http://mobileraj.github.io/2015/11/26/Atari-Vax-Email-Network-Analysis</link>
+                <guid>http://mobileraj.github.io/2015/11/26/Atari-Vax-Email-Network-Analysis</guid>
+                <pubDate>2015-11-26T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>AngelHack Sunnyvale July 2015 - Recap</title>
+                <description>&lt;p&gt;It was a great experience to spend just about 24 hrs non-stop with geeks and hackers from the valley. The event was held in HP building next to Ames Research area in Sunnyvale, CA.&lt;/p&gt;
+
+&lt;p&gt;It was my first all nighter in a while. The last all nighter was when I worked on a proposal for a Fortune 100 company, which we ended up winning&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;Some of the partners who were there in addition to IBM - Linode, Autodesk, Respoke, Pebble, ClusterPoint and ofcourse HP.&lt;/p&gt;
+
+&lt;p&gt;All of the participants did a great job. Some of the key projects that stood out were - CollabNotes, Cycle, SwiftSell, Soo Shop, Chromatic, Teachy, Rydr, Better than Air guitar (or something like that).. There were significant number of highschool students than any other hackathons I have been in. Of the 350+ folks, looked like more than 150 were below the age of 18.&lt;/p&gt;
+
+&lt;p&gt;Being an IBM Sponsor, my colleage Lennart and I had to judge various teams who used IBM Bluemix and didnt get to see some of the main stage pitches. CollabNotes created by 3 16 year olds won the IBM prize. 2 of them were in person, while the third skyped from LA. Alex and Kushal did a great job coming up with the concept to take class notes from textbook or otherwise, use AlchemyAPI (entity, relation and keyword extractions) to create summarized topics/themese with a wordcloud based navigation of comcepts.&lt;/p&gt;
+
+&lt;p&gt;One of the highlight was to see Soo Shop created by a 12 year old, who according to Kyle of @respoke started Python when he was 6 and banged out Node JS app that fully exploited Respoke APIs. Kyle ended up giving the Respoke sponsor prize to the 12 year old.&lt;/p&gt;
+
+&lt;p&gt;Personally, it hit home that I am still a geek who derives great joy from hacking and helping and still have some coding chops left :)&lt;/p&gt;
+
+&lt;p&gt;Here are some pics from the hackathon through the night and few during the days. You can also see my tweets &lt;a href='http://twitter.com/mobileraj1'&gt;@mobileraj1&lt;/a&gt; &lt;img alt='' src='/assets/IMG_0877.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0878.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0879.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0880.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0881.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0882.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0883.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0884.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0885.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0886.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0887.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0888.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0889.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0890.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0891.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0892.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0893.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0894.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0895.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0896.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0897.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0898.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0899.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0900.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0901.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0902.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0903.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0904.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0905.jpg' /&gt; &lt;img alt='' src='/assets/IMG_0906.jpg' /&gt;&lt;/p&gt;</description>
+                <link>http://mobileraj.github.io/2015/07/20/AngelHack-Sunnyvale-Recap</link>
+                <guid>http://mobileraj.github.io/2015/07/20/AngelHack-Sunnyvale-Recap</guid>
+                <pubDate>2015-07-20T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Supporting hackathons with Cloudant</title>
+                <description>&lt;p&gt;As I start to attend hackathons around supporting devs to build apps with &lt;a href='http://bluemix.net'&gt;IBM Bluemix&lt;/a&gt;, I kept being asked how to use some public dataset within mobile and web apps. When I was in San Francisco, I heard about the &lt;a href='https://data.sfgov.org/'&gt;Open Data&lt;/a&gt; project. I looked at the Bicycle parking data &lt;a href='https://data.sfgov.org/Transportation/Bicycle-Parking-Public-/w969-5mn4'&gt;set&lt;/a&gt; and got that into &lt;a href='http://cloudant.com'&gt;Cloudant&lt;/a&gt; for use at hackathons.&lt;/p&gt;
+
+&lt;p&gt;The URL for accessing the data is off my Cloudant DB https://mobileraj.cloudant.com/sfbikelots/&lt;/p&gt;
+
+&lt;p&gt;I also created &lt;em&gt;index so you can use Cloudant &lt;a href='https://docs.cloudant.com/cloudant_query.html'&gt;Query&lt;/a&gt; Finding all lots on Ellis:&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;curl -H &lt;span class='s2'&gt;&amp;quot;Content-Type: application/json&amp;quot;&lt;/span&gt; https://mobileraj.cloudant.com/sfbikelots/_find -X POST -d
+     &lt;span class='s1'&gt;&amp;#39;{&lt;/span&gt;
+&lt;span class='s1'&gt;        &amp;quot;selector&amp;quot;: {&amp;quot;street&amp;quot;:&amp;quot;ELLIS&amp;quot;},&lt;/span&gt;
+&lt;span class='s1'&gt;	&amp;quot;fields&amp;quot;: [&amp;quot;street&amp;quot;,&amp;quot;address&amp;quot;,&amp;quot;mo_installed&amp;quot;,&amp;quot;yr_installed&amp;quot;,&amp;quot;placement&amp;quot;,&amp;quot;coords&amp;quot;,&amp;quot;latitude&amp;quot;]&lt;/span&gt;
+&lt;span class='s1'&gt;     }&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href='https://docs.cloudant.com/geo.html#example:-querying-a-cloudant-geo-index'&gt;Geo&lt;/a&gt; specific queries are also supported - Getting all entries within a boundingbox:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;https://mobileraj.cloudant.com/sfbikelots/_design/SpatialView/_geo/lots?bbox&lt;span class='o'&gt;=&lt;/span&gt;37,-122,37.8,-122.5&amp;amp;include_docs&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='nb'&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Email or tweet if you want to know more&amp;#8230;&lt;/p&gt;</description>
+                <link>http://mobileraj.github.io/2015/01/29/Supporting-Hackathons-with-Cloudant</link>
+                <guid>http://mobileraj.github.io/2015/01/29/Supporting-Hackathons-with-Cloudant</guid>
+                <pubDate>2015-01-29T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>What I talk about running when I talk about running</title>
+                <description>&lt;p&gt;I tried the idea index method thanks to &lt;a href='http://calnewport.com/'&gt;Cal&lt;/a&gt; who got this via &lt;a href='http://fourhourworkweek.com/'&gt;Tim Feriss blog&lt;/a&gt; interviewing &lt;a href='http://www.brainpickings.org/'&gt; Maria&lt;/a&gt;, as I read Haruki Murakamis What I talk about running when I talk about running. This book itself was referenced in Cal&amp;#8217;s blog post. True to the method, I tried to keep a page in front of the book and made notes instead of highlighting or not doing anything (which is what I typically do - just read) The result is the page reference in each of the note item.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='The book' src='http://upload.wikimedia.org/wikipedia/en/thumb/7/73/What_I_Talk_About.jpg/220px-What_I_Talk_About.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;sup&gt;vii&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;10&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;11&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;43&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;44&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 45 &lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 61&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 70 &lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 71&lt;/sup&gt;
+&lt;p&gt;-&lt;sup&gt; 73&lt;/sup&gt; Dont quit running because you are busy. At several points he had several commitments and could have easily made excuses to quit or miss runs. You have few reasons to run and a lots of reasons to quit. You keep the few reasons nice and polished.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 77&lt;/sup&gt;
+&lt;p&gt;Jogging every day to strengthen your muscles and you develop your runners physique. Add a stimulus and keep it up and repeat. Patience is a must but this guarantees results. Works for both writing and jogging. Raymond Chandler would sometimes just sit at his desk and think even if not to write, so his habit and endurance is built. Build your focus and endurance early in life, since as you age you need it.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 82 &lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt;84&lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 101 &lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 108 &lt;/sup&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;sup&gt; 116 &lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://mobileraj.github.io/2014/11/02/what-i-talk-about-running-when-i-talk-about-running</link>
+                <guid>http://mobileraj.github.io/2014/11/02/what-i-talk-about-running-when-i-talk-about-running</guid>
+                <pubDate>2014-11-02T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Raw Notes - Why dont students like school</title>
+                <description>&lt;p&gt;&lt;img alt='TheBook' src='http://media.wiley.com/product_data/coverImage300/6X/04705919/047059196X.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on cognitive principles and research of the author and others like Daniel &lt;a href='http://en.wikipedia.org/wiki/Daniel_Kahneman'&gt;Kahneman&lt;/a&gt;. Same s1 and s2 model, we saw in an older &lt;a href='http://mobileraj.github.io/2014/08/20/Thinking-Fast-Slow/'&gt;post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The System 1 &amp;amp; 2 here are referred to as short-term memory and long-term memory respectively&lt;/p&gt;
+
+&lt;p&gt;Cognitive principles and implications&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;People are naturally curious but are not naturally good thinkers - start with explaining questions taking answers for granted&lt;/li&gt;
+
+&lt;li&gt;Factual knowledge precedes skill - need facts to think well on topic&lt;/li&gt;
+
+&lt;li&gt;Memory is residue of thought - the lesson or topic must ask what will make my audience think&lt;/li&gt;
+
+&lt;li&gt;We understand new things in context of things we already know - start with shallow knowledge before getting into deep knowledge which is the goal&lt;/li&gt;
+
+&lt;li&gt;Proficiency requires practice&lt;/li&gt;
+
+&lt;li&gt;Cognition is fundamentally different early and late in training - understand your audience&lt;/li&gt;
+
+&lt;li&gt;Children are more alike than different in terms of learning - think of content not on variation of audience&lt;/li&gt;
+
+&lt;li&gt;Intelligence can be changed through sustained hard work - talk success and failure in form of effort and not ability&lt;/li&gt;
+
+&lt;li&gt;Practice these principles to improve your delivery - improvement requires more than just experience it&amp;#8217;s about conscious effort and feedback.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://mobileraj.github.io/2014/09/07/Why-dont-students-like-school</link>
+                <guid>http://mobileraj.github.io/2014/09/07/Why-dont-students-like-school</guid>
+                <pubDate>2014-09-07T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Raw notes - Rapt</title>
+                <description>&lt;p&gt;&lt;img alt='Rapt' src='http://d.gr-assets.com/books/1408920525l/6262510.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Attention and focus are key if we have achieve anything meaningful in this info flooded always on world.&lt;/li&gt;
+
+&lt;li&gt;Choosing what to focus on specifically guides your overall experience. Be in the moment paying attention to one thing over many things.&lt;/li&gt;
+
+&lt;li&gt;Positive emotion helps in ensuring right focus.&lt;/li&gt;
+
+&lt;li&gt;Living a focused life is not about trying to feel happy all the time. But rather treating your mind as a private garden and being mindful of what u take in and allow it to grow.&lt;/li&gt;
+
+&lt;li&gt;Research shows what you pay attention yo shapes your brain. So use that throughout your life to keep growing.&lt;/li&gt;
+
+&lt;li&gt;Focus on relationships&lt;/li&gt;
+
+&lt;li&gt;Story of Tracey Burke who is a polymath. From Maryland to Wyoming where she is a gourmet cook, ranch hand, gardener, runs ea ranch, legal mediation and yoga.she has continually reinvented herself by focus&lt;/li&gt;
+
+&lt;li&gt;Happiness is a later reflection of memorable accomplishment or result from a worthwhile strenuous activities. According to &lt;a href='http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi'&gt;mihaly&lt;/a&gt; csikzentmihalyi - happiness is a later reflection of the flow, rather than the result of the experience at the time.&lt;/li&gt;
+
+&lt;li&gt;Productivity matters even in your free time.&lt;/li&gt;
+
+&lt;li&gt;The antidote to leisure time ennui is to pay as much attention go scheduling a productive evening or weekend as we do a work day. If not by Sunday you start ruminating of a wasted life&amp;#8230;u need activities that is fun but also stretch u. Baruch Spinoza made specs during day, William Blake was a painter etc.&lt;/li&gt;
+
+&lt;li&gt;Just don&amp;#8217;t have the time means just don&amp;#8217;t have the self discipline.&lt;/li&gt;
+
+&lt;li&gt;Rapt focus is central to all forms of fulfilling experiences,&lt;/li&gt;
+
+&lt;li&gt;Decisions require us to think but also move thru the process. Looking at holistically is way more important than piece parts in deciding. Ref to Daniel &lt;a href='https://www.princeton.edu/~kahneman/'&gt;Kahneman&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;The selves of s1 and s2 or the experiencing self vs remembering self play a part in the overall life. Fortune cookie maxim- nothing in life is as important as you think it is while you are thinking about it. Example of being happy in California vs michigan - as the vast part of what makes up happiness is family relations work etc and small part of weather.&lt;/li&gt;
+
+&lt;li&gt;We base our choices on our evaluations rather than our actual experience - remember that your life is a sum of what you focus on.&lt;/li&gt;
+
+&lt;li&gt;Multi tasking is overrated. It&amp;#8217;s very inefficient- it&amp;#8217;s rapid refocus. To get attention piqued you can use coffee or Ritalin or use regimens and exercises to build your focus muscles&lt;/li&gt;
+
+&lt;li&gt;Ref Larry Stewart of Missouri business men.&lt;/li&gt;
+
+&lt;li&gt;Shift away from unhealthy thoughts and emotions and recast negative events into most productive light possible is the most important of all health habits to cultivate.&lt;/li&gt;
+
+&lt;li&gt;Per Simone Weil - attentiveness without an object is prayer in its supreme form.&lt;/li&gt;
+
+&lt;li&gt;Ref dugu choegyal rinpoche, Richard Alpert to ram das,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Meditation and yoga or alone time each morning with attentive focus on nothingness is key.&lt;/p&gt;</description>
+                <link>http://mobileraj.github.io/2014/09/03/Rapt</link>
+                <guid>http://mobileraj.github.io/2014/09/03/Rapt</guid>
+                <pubDate>2014-09-03T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Raw notes - The Dip by Seth Godin</title>
+                <description>&lt;p&gt;&lt;img alt='TheDip' src='http://www.sethgodin.com/thedip/thedip.gif' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Winners quit all the time, they just quit the right stuff at the right time.&lt;/li&gt;
+
+&lt;li&gt;Most people quit they just don&amp;#8217;t quit successfully.&lt;/li&gt;
+
+&lt;li&gt;Quit the wrong stuff. Stick with the right stuff. Have the guts to do one or the other. Example of Hannah smith who focused on few things well so she can become the Supreme Court clerk.&lt;/li&gt;
+
+&lt;li&gt;Reason for some of this is winner take all philosophy. The long tail book by &lt;a href='http://www.longtail.com/about.html'&gt;Chris Anderson&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Time is limited so are resources. Scarcity makes being at the top worth something and scarcity comes from hurdles set up by markets and society.&lt;/li&gt;
+
+&lt;li&gt;Best is subjective and world is selfish.&lt;/li&gt;
+
+&lt;li&gt;Everything in life worth doing is controlled by the dip. There are 2 other curves as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='TheDipPic' src='/assets/thedip.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The dip is the long slog between starting and mastery. It&amp;#8217;s actually a shortcut. It&amp;#8217;s a combination of bureaucracy and busy work u have to deal with in order to move up.bits the stretch between beginners luck and real accomplishment.&lt;/p&gt;
+
+&lt;p&gt;Successful people don&amp;#8217;t just ride out the dip they lean into it. They push harder changing rules as they go. They don&amp;#8217;t last long when u whittle at them.&lt;/p&gt;
+
+&lt;p&gt;Curve 2 - The cul de sac is the dead end. When u are in a cul de sac u quit it so u can focus ur resources on other things.&lt;/p&gt;
+
+&lt;p&gt;Curve 3 the cliff rare but scary.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='TheFailure' src='/assets/dip-failure.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cigarette smoking has the cliff the longer u wait the longer it takes for u to quit.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;It&amp;#8217;s human nature to quit when it hurts but it&amp;#8217;s the reflex that creates scarcity.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;If the journey you started was worth doing then quitting when u hit the dip just wastes time u have already invested.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;If u can&amp;#8217;t make it thru the dip then don&amp;#8217;t start!&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Seven reasons you might fail to become the best-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No time,&lt;/li&gt;
+
+&lt;li&gt;no money,&lt;/li&gt;
+
+&lt;li&gt;scared,&lt;/li&gt;
+
+&lt;li&gt;not serious,&lt;/li&gt;
+
+&lt;li&gt;settle for mediocre,&lt;/li&gt;
+
+&lt;li&gt;focus on short term,&lt;/li&gt;
+
+&lt;li&gt;pick the wrong thing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Quitting creates scarcity and scarcity creates value.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Have the guts to cancel the space shuttle.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;The goal of any competitor is to create a dip so long and deep that nascent folks can&amp;#8217;t catchup&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;The opposite of quitting is rededication. Dip is flexible and responds to effort we put in. Joe Biden s quitting of 1988 pres candidacy as example. No one quits the boston marathon at mile 25&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Getting off a cul de sac is not moral failing but it&amp;#8217;s just smart. Coping is a lousy alternative to quitting. Pride is the enemy of smart quitter.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Ignore sunk costs. Example of Michael Crichton quitting his doc to start over.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='3_questions_to_ask_before_quitting'&gt;3 questions to ask before quitting-&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Am I panicking,&lt;/li&gt;
+
+&lt;li&gt;who am I trying to influence,&lt;/li&gt;
+
+&lt;li&gt;what sort of measurable progress am I making&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://mobileraj.github.io/2014/09/01/The-Dip</link>
+                <guid>http://mobileraj.github.io/2014/09/01/The-Dip</guid>
+                <pubDate>2014-09-01T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Raw notes - Thinking Fast and Slow</title>
+                <description>&lt;p&gt;&lt;img alt='ThinkingFast' src='http://upload.wikimedia.org/wikipedia/en/c/c1/Thinking%2C_Fast_and_Slow.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Two systems of thinking-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sys1 operates automatically and quickly with little to no effort and no sense of voluntary control&lt;/li&gt;
+
+&lt;li&gt;Sys2 allocates attention to the effort flu mental Activities that demand it including complex computations. This sys2 is associated with subjective experience of agency, choice and focus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prime sys2 so sys1 can engage the right way.&lt;/p&gt;
+
+&lt;p&gt;Some key takeaways&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What you see is all there is - WYSIATI&lt;/li&gt;
+
+&lt;li&gt;Mind then is an uneasy interaction of the 2 systems&lt;/li&gt;
+
+&lt;li&gt;Sys1 does x means x occurs automatically&lt;/li&gt;
+
+&lt;li&gt;Sys2 is mobilized to do y means arousal increases, pupil dilates attention is focused and activity y is performed.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://mobileraj.github.io/2014/08/20/Thinking-Fast-Slow</link>
+                <guid>http://mobileraj.github.io/2014/08/20/Thinking-Fast-Slow</guid>
+                <pubDate>2014-08-20T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>On Right Location?</title>
+                <description>&lt;p&gt;This post explores some thinking around the challenges surrounding the concept of location in a mobile scenario. For this paper, our assumption is that of a user carrying a smart phone or some wearable that has enough compute power to react to the notion of where it is at (location). This reaction can be it passively sending the location info or actively engaging the user into a newer experience.&lt;/p&gt;
+
+&lt;h3 id='micro_and_macro'&gt;Micro and macro&lt;/h3&gt;
+
+&lt;p&gt;Since the user can be in a confined manmade structure (as in visiting a mall or a store in a mall or running to an ER) or moving across a larger area (like a city block, driving cross country, climbing a mountain) we need to treat them separately, as they have unique technical and behavioural challenges. Hence we introduce the concept of micro and macro locations. Micro-location are region/area definition for a range of centimeters to few meters. These are tagged area/region as defined by the technology used in identifying that region.&lt;/p&gt;
+
+&lt;h3 id='earth_is_flat'&gt;Earth is flat&lt;/h3&gt;
+
+&lt;p&gt;In most models of the earth, its gets a planar treatment. For small areas the curvature of the earth doesnt manifest itself and the notion of a flat earth is a great approximation for us to treat various properties of the location in question. This includes things like a few acres of land, driving in your favourite city blocks or exploring a maze in your office buildings. There are other variation in the non-planar earth model starting with the simpler spherical and the more elaborate ellipsoidal. If you ever have seen words like Mercator projection or Robinson projection, its trying to project a geometry (point, line or polygon) as represented on real earth onto a flat surface such as a map.&lt;/p&gt;
+
+&lt;h3 id='space_and_time'&gt;Space and time&lt;/h3&gt;
+
+&lt;p&gt;Capturing the static image of a location or events in a given area as a map is interesting but it gets more informative when the time dimension is added. With time you can better comprehend events and processes occuring in space, which provides the rich insight so desired in making the right decisions.&lt;/p&gt;
+
+&lt;h3 id='additional_datatypes'&gt;Additional datatypes&lt;/h3&gt;
+
+&lt;p&gt;We have already seen that location constructs introduces the notion of a geometry data type in how we capture information. Starting with a simple point (lat/lon) to line (an ordered pairs of points) to polygon (an ordered pairs of points that is closed), the data to be stored and indexed for supporting the queries is much different than typical textual or numerical data. Queries also come in several forms to answer spatial questions such as if a point is &lt;em&gt;within&lt;/em&gt; a polygon or if two lines &lt;em&gt;intersect&lt;/em&gt; or if a point is &lt;em&gt;beyond&lt;/em&gt; a given line by some distance and so on. This needs to be accommodated in how the data is stored and indexed but also at scale. The database research has produced several clever store and indexing schemes to support effective retrieval of spatial and temporal data.&lt;/p&gt;
+
+&lt;h3 id='battery_connectivity_and_such'&gt;Battery, connectivity and such&lt;/h3&gt;
+
+&lt;p&gt;Since the location data is typically being collected on smart devices, we need to worry about several uncertainities such as battery drain when location is collected more often. Or what happens if there is an error in GPS reading. There is also the loss of connectivity during data transmission of the collected data andif you were paying for a crappy data plan, then to accommodate effective ways to send location data without incurring undue costs.&lt;/p&gt;
+
+&lt;p&gt;There are many more areas that we will cover as we explore key location usecases and scenarios over the next posts, but this should get you some appreciation of why location is unique in what we need to address for a effective solution around using location data.&lt;/p&gt;
+
+&lt;p&gt;Until next time..keep moving.&lt;/p&gt;</description>
+                <link>http://mobileraj.github.io/2014/05/02/on-right-location</link>
+                <guid>http://mobileraj.github.io/2014/05/02/on-right-location</guid>
+                <pubDate>2014-05-02T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Lifecycle of data on BlueMix - The Pulse Sales App Story</title>
+                <description>&lt;p&gt;This post explores how data that is created from users using mobile apps in a sales scenario ends up useful to the business and can help in improving customer retention or satisfaction or optimizing sales staff. This is illustrated using a combination of BlueMix services that was announced at &lt;a href='http://www.youtube.com/watch?v=EoItVuWzg7U'&gt;IBM Pulse&lt;/a&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='http://www.youtube.com/embed/EoItVuWzg7U' width='500'&gt;PulseAppMovie&lt;/iframe&gt;
+&lt;h4 id='about_the_scenario'&gt;About the scenario&lt;/h4&gt;
+
+&lt;p&gt;This user scenario is that of the fictional Homestead company that we introduced at IBM Pulse mainstage demo. The sales associates are using the mobile app to help followup with customers, maintain better relations and enhance the overall buying experience. In short they go from being sales helper to personal shopper. Fast forward to year from this launch of this, Homestead has this deployed to several stores and several hundred sales associates are using this app in servicing customers. The need is for the business to reason about this adhoc customer notes that has been captured by the sales associates. The overall context for this post starts with the below cartoon on various interacting roles and system parts. &lt;img alt='Context' src='/assets/DataWorkFlow.png' /&gt;&lt;/p&gt;
+
+&lt;h4 id='step_0_building_the_app'&gt;Step 0: Building the app&lt;/h4&gt;
+
+&lt;p&gt;The developer at Homestead built the app, that was showcased at &lt;a href='http://www.youtube.com/watch?v=EoItVuWzg7U'&gt;IBM Pulse&lt;/a&gt; goto 48:43 to see the &lt;a href='http://www.youtube.com/watch?v=EoItVuWzg7U'&gt;app&lt;/a&gt; &lt;img alt='Homestead app from Pulse' src='/assets/youtube1.png' /&gt;&lt;/p&gt;
+
+&lt;h4 id='step_1_data_collection_as_use_increase'&gt;Step 1: Data collection as use increase&lt;/h4&gt;
+
+&lt;p&gt;As various sales associates use the app, data is being populated on the BlueMix/Cloudant. The structure of the single JSON document as a sales associate interacts with a customer is as follows. See this &lt;a href='http://www.youtube.com/watch?v=IsVjwz5o7JU'&gt;video&lt;/a&gt; that shows a document in data console on the cloud.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;lastinteractiondate&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;2012-07-11&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;firstname&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Fama&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;lastname&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Stres&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;products&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='p'&gt;[&lt;/span&gt;
+            &lt;span class='s2'&gt;&amp;quot;Ski Boots&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+            &lt;span class='s2'&gt;&amp;quot;Powerbars&amp;quot;&lt;/span&gt;
+        &lt;span class='p'&gt;],&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;address&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='s2'&gt;&amp;quot;city&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;london&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+            &lt;span class='s2'&gt;&amp;quot;state&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;ny&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+            &lt;span class='s2'&gt;&amp;quot;localphone&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;3084328&amp;quot;&lt;/span&gt;
+        &lt;span class='p'&gt;},&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;customerId&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;57fea3df-d6f7-467b-8420-ad427c05dafc&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='s2'&gt;&amp;quot;orders&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='p'&gt;[&lt;/span&gt;
+            &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;ordid&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mi'&gt;15122&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;status&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;open&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;comments&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Ship to my home address for the boots&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;filedon&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;2012-07-10&amp;quot;&lt;/span&gt;
+            &lt;span class='p'&gt;},&lt;/span&gt;
+            &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;ordid&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mi'&gt;12920&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;status&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;closed&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;comments&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Asked about women&amp;#39;s small ski mask&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                &lt;span class='s2'&gt;&amp;quot;filedon&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;2012-07-01&amp;quot;&lt;/span&gt;
+            &lt;span class='p'&gt;}&lt;/span&gt;
+        &lt;span class='p'&gt;]&lt;/span&gt;
+&lt;span class='p'&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The cartoon describing the interaction/flow is shown below &lt;img alt='Context1' src='/assets/DataWorkFlow1.png' /&gt; &lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='http://www.youtube.com/embed/IsVjwz5o7JU' width='500'&gt;PulseAppMovie&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h4 id='step_2_data_etl_into_analytics_tool'&gt;Step 2: Data ETL into analytics tool&lt;/h4&gt;
+
+&lt;p&gt;Since this data has been collected over few months, its best to export it to an analytics engine for performing analysis. This is facilitated using IBM DataStage 9.1.2 tool to extract the JSON documents, normalize and map them into tables on the BLU Acceleration service. See the video &lt;a href='http://youtu.be/-Ky7QWBcGFk'&gt;here&lt;/a&gt; &lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='http://www.youtube.com/embed/-Ky7QWBcGFk' width='500'&gt;PulseAppMovie&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h4 id='step_3_analyzing_the_data'&gt;Step 3: Analyzing the data&lt;/h4&gt;
+
+&lt;p&gt;Now that the data is available on the cloud for analysis using BLU Acceleration service, the business analyst/data scientist can use the power of &lt;a href='http://www.r-project.org'&gt;R&lt;/a&gt; to see the customer distribution by state. You can see the video of the interaction &lt;a href='http://youtu.be/8zByiS5OoGc'&gt;here&lt;/a&gt;. You can see the normalized tables around customers, orders and products that was created in the previous step in this video. The cartoon describing the interaction/flow is shown below &lt;img alt='Context1' src='/assets/DataWorkFlow2.png' /&gt; &lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='http://www.youtube.com/embed/8zByiS5OoGc' width='500'&gt;PulseAppMovie&lt;/iframe&gt;&lt;/p&gt;</description>
+                <link>http://mobileraj.github.io/2014/03/03/life-of-data-on-bluemix-story1</link>
+                <guid>http://mobileraj.github.io/2014/03/03/life-of-data-on-bluemix-story1</guid>
+                <pubDate>2014-03-03T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Workflow For Site</title>
+                <description>&lt;ul&gt;
+&lt;li&gt;IDE is Sublime, Vim or Emacs. Preference is Sublime on my Mac; but I use Vim as well. Vim and Emacs from my Ubuntu machines&lt;/li&gt;
+
+&lt;li&gt;Git for managing my workflow of versioning.&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;todo&lt;/em&gt; need to look at watcher like tools to the bag&lt;/li&gt;
+
+&lt;li&gt;Chrome for browsing, testing with the awesome Devtools for debugging and styling&lt;/li&gt;
+
+&lt;li&gt;Omnigraffle for diagramming manually; PlantUML and Graphviz for automatic generation of diagrams from ascii&lt;/li&gt;
+
+&lt;li&gt;Ofcourse Jekyll to power the site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='steps'&gt;Steps&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Come up with an idea, something to write about or show-off a recent piece of code&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do the work in creating the asset - code/app/video etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Create a new post &lt;em&gt;rake post title&lt;/em&gt; and give it a title&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Open the post in editor &lt;em&gt;vim post&lt;/em&gt; and slog&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Save occasionally to see how it looks. &lt;em&gt;jekyll serve&lt;/em&gt;, view &lt;em&gt;localhost:4000&lt;/em&gt; in Chrome; if already running &lt;em&gt;ctrl+c, jekyll serve&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When done, see what needs to be checked in &lt;em&gt;git status -s&lt;/em&gt; , &lt;em&gt;git add post.md&lt;/em&gt; , &lt;em&gt;git commit -a -m &amp;#8220;changes were made&amp;#8221;&lt;/em&gt; , &lt;em&gt;git push origin master&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;See it via Chrome on &lt;em&gt;mobileraj.github.io&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+                <link>http://mobileraj.github.io/learnings/2014/02/27/workflow-for-site</link>
+                <guid>http://mobileraj.github.io/learnings/2014/02/27/workflow-for-site</guid>
+                <pubDate>2014-02-27T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Hello World</title>
+                <description>&lt;p&gt;This post is my first experiment with Jekyll powered site - thank you &lt;a href='http://github.com'&gt;Github&lt;/a&gt;. I had a brief romance with &lt;a href='https://www.ruby-lang.org/'&gt;Ruby&lt;/a&gt; right before the &lt;a href='http://rubyonrails.org/'&gt;Ruby on Rails&lt;/a&gt; hype cycle. I even have an autographed Ruby &lt;a href='http://pragprog.com/book/ruby/programming-ruby'&gt;book&lt;/a&gt; from &lt;a href='http://pragdave.me/'&gt;Dave Thomas&lt;/a&gt; himself. And I still follow DHH.&lt;/p&gt;
+
+&lt;h4 id='about_me'&gt;About me&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am curious about how things work, especially the software kind - including brain, cells and programs/systems. I am starting to get into hardware, but there has been no time to get dedicated learning on the likes of arduino or raspberry pi, let alone stamp computing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So most of the work/writings here will be about code snippets, industry observations, videos around sample apps and anything I am excited about around technology.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id='on_the_web'&gt;on the web&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can find about my professional work life &lt;a href='http://www.linkedin.com/in/schroskat'&gt;here&lt;/a&gt; and read or follow my &lt;a href='https://twitter.com/mobileraj1'&gt;tweets&lt;/a&gt;. I have stayed off &lt;a href='http://facebook.com'&gt;Facebook&lt;/a&gt; for almost 2 years other than the occasional prod I might get from my family to check out something they had posted etc. I also have started to upload some of my geek play on &lt;a href='http://www.youtube.com/user/r0x61j/videos'&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id='at_ibm'&gt;at &lt;a href='http://ibm.com'&gt;IBM&lt;/a&gt;&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can read my older &lt;a href='http://raj.balasubramanians.com/RajResume2011.pdf'&gt;CV&lt;/a&gt;. Currently I lead mobile cloud services initiatives (as a product manager) around the IBM &lt;a href='http://www.bluemix.net'&gt;BlueMix&lt;/a&gt; platform we announced at &lt;a href='http://www-01.ibm.com/software/tivoli/pulse/'&gt;Pulse&lt;/a&gt;. Let me know if you want to give it a try. I also have responsibility around IBM Worklight product focusing on data on device, analytics, security and integration.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Prior to that I did consulting around app dev &amp;amp; infrastructure projects for IBM Software Group across variety of disciplines - SOA, BPM, BRM, Portal, EAI etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;All statements, opinions here are my own and doesnt represent in any way of my current or previous employers.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id='phd'&gt;phd&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to continue through my PhD at &lt;a href='http://wwww.utexas.edu'&gt;University of Texas at Austin&lt;/a&gt;. Its been very tough given work, family and other commitments. Soon, I will write about some research escapades here. For now, all you will know is &lt;a href='http://raj.balasubramanians.com/ResearchStmt-2011-1.pdf'&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+                <link>http://mobileraj.github.io/learnings/2014/02/26/hello-world</link>
+                <guid>http://mobileraj.github.io/learnings/2014/02/26/hello-world</guid>
+                <pubDate>2014-02-26T00:00:00-06:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

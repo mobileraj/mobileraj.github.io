@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Workflow For Site</title>
+    
+    <meta name="author" content="Raj Balasubramanian">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">mobileraj.github.io</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h3>Workflow For Site <small>how content gets generated - the process</small></h3>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>27 February 2014</span>
+    </div>
+    <div class="content">
+      <ul>
+<li>IDE is Sublime, Vim or Emacs. Preference is Sublime on my Mac; but I use Vim as well. Vim and Emacs from my Ubuntu machines</li>
+
+<li>Git for managing my workflow of versioning.</li>
+
+<li><em>todo</em> need to look at watcher like tools to the bag</li>
+
+<li>Chrome for browsing, testing with the awesome Devtools for debugging and styling</li>
+
+<li>Omnigraffle for diagramming manually; PlantUML and Graphviz for automatic generation of diagrams from ascii</li>
+
+<li>Ofcourse Jekyll to power the site.</li>
+</ul>
+
+<h5 id='steps'>Steps</h5>
+
+<blockquote>
+<p>Come up with an idea, something to write about or show-off a recent piece of code</p>
+</blockquote>
+
+<blockquote>
+<p>Do the work in creating the asset - code/app/video etc.</p>
+</blockquote>
+
+<blockquote>
+<p>Create a new post <em>rake post title</em> and give it a title</p>
+</blockquote>
+
+<blockquote>
+<p>Open the post in editor <em>vim post</em> and slog</p>
+</blockquote>
+
+<blockquote>
+<p>Save occasionally to see how it looks. <em>jekyll serve</em>, view <em>localhost:4000</em> in Chrome; if already running <em>ctrl+c, jekyll serve</em></p>
+</blockquote>
+
+<blockquote>
+<p>When done, see what needs to be checked in <em>git status -s</em> , <em>git add post.md</em> , <em>git commit -a -m &#8220;changes were made&#8221;</em> , <em>git push origin master</em></p>
+</blockquote>
+
+<blockquote>
+<p>See it via Chrome on <em>mobileraj.github.io</em></p>
+</blockquote>
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#learnings-ref">
+    		learnings <span>2</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#git-ref">git <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#workflow-ref">workflow <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/learnings/2014/02/26/hello-world" title="Hello World">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/2014/03/03/life-of-data-on-bluemix-story1" title="Lifecycle of data on BlueMix - The Pulse Sales App Story">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2015 Raj Balasubramanian
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
