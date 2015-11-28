@@ -17,10 +17,26 @@ for the entire set of email text files on his site. Ref#2 provides the python so
 It uses a simple state machine model of 3 states - from/to/reset to extract and populate the data list which I save it as pickle.
 
 ### Getting a network
-I then used <a href="http://networkx.github.io/"> NetworkX </a> library.
+I then used <a href="http://networkx.github.io/"> NetworkX </a> library to create a GraphML file from the data extracted. 
+You can see that in Ref#4
+
+You can see the visualization of the network using <a href="https://graph-tool.skewed.de/"> graph-tool </a> below -
 
 ![graph](https://github.com/mobileraj/atariGraph/blob/master/vaxemail.png?raw=true)
-To be continued....
+
+### Basic analysis
+Used networkX to do some basic degree distribution and pagerank analysis to get the top 5 accounts.
+
+The degree distribution, as other email distributions it follows power law.
+
+![Degree Dist](https://github.com/mobileraj/atariGraph/blob/master/degree.png?raw=true)
+
+Running pagerank analysis yields the top five accounts as -
+
+@SYS$MAIL:JUNK, MARGOLIN, @SYS$MAIL:ENGINEER, @SYS$MAIL:EVERYBODY,KIM::MARGOLIN, FARRAND, SKIP, STUBBEN, @SYS$MAIL:EE
+
+
+Feel free to clone/fork my Github project and play with it.
 
 
 ### References
@@ -32,4 +48,4 @@ To be continued....
 
 [4] Python notebook to get a GraphML file - https://github.com/mobileraj/atariGraph/blob/master/PyGraphML.ipynb
 
-\[5] Python notebook for doing graph analysis - https://github.com/mobileraj/atariGraph/blob/master/Graph%20Analysis.ipynb
+[5] Python notebook for doing graph analysis - https://github.com/mobileraj/atariGraph/blob/master/Graph%20Analysis.ipynb
