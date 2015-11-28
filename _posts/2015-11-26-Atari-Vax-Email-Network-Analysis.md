@@ -36,7 +36,7 @@ Running pagerank analysis yields the top five accounts as -
 @SYS$MAIL:JUNK, MARGOLIN, @SYS$MAIL:ENGINEER, @SYS$MAIL:EVERYBODY,KIM::MARGOLIN, FARRAND, SKIP, STUBBEN, @SYS$MAIL:EE
 
 
-Feel free to clone/fork my Github project and play with it.
+Feel free to clone/fork my <a href="https://github.com/mobileraj/atariGraph">Github project</a> and play with it.
 
 
 ### References
