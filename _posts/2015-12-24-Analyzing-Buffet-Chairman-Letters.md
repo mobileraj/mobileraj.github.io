@@ -33,6 +33,7 @@ Mallet is very easy to use and once you have the text documents primed, its a br
 ![Mallet 5Topic Out](https://raw.githubusercontent.com/mobileraj/mobileraj.github.io/master/_site/assets/5topics.png)
 
 Then I proceeded to plot the topics over time for the 5,10,20 topics models. 20 topics model with top 3 topics per letter over time -
+
 ![20topics](https://raw.githubusercontent.com/mobileraj/mobileraj.github.io/master/_site/assets/trial1.png)
 
 10 topics model with top 3 topics per letter-
@@ -43,6 +44,7 @@ Then I proceeded to plot the topics over time for the 5,10,20 topics models. 20 
 
 ### Moneyshot
 My favourite tool from the viz toolchest has been multi-dimensional scaling (MDS) for higher dimensional data for the last decade and so I took the 5 topics model and tried to visualize the the letters over time using how each letter contributes to the topic (probablities). This produced the most cool graph clustering the 70s,80s,90s,2000s loosely.
+
 ![MDS 5topics](https://raw.githubusercontent.com/mobileraj/mobileraj.github.io/master/_site/assets/DistPlot.png)
 
-Email or tweet if you want to know more...
+[Email](https://github.com/mobileraj) or [tweet](https://twitter.com/mobileraj1) if you want to know more...
