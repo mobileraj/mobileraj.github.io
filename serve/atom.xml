@@ -4,7 +4,7 @@
  <title>mobileraj.github.io</title>
  <link href="http://mobileraj.github.io/" rel="self"/>
  <link href="http://mobileraj.github.io"/>
- <updated>2015-11-26T21:05:19-06:00</updated>
+ <updated>2016-01-01T12:28:13-06:00</updated>
  <id>http://mobileraj.github.io</id>
  <author>
    <name>Raj Balasubramanian</name>
@@ -13,11 +13,47 @@
 
  
  <entry>
-   <title>new post</title>
+   <title>Atari Vax Email Network Analysis</title>
    <link href="http://mobileraj.github.io/2015/11/26/Atari-Vax-Email-Network-Analysis"/>
    <updated>2015-11-26T00:00:00-06:00</updated>
    <id>http://mobileraj.github.io/2015/11/26/Atari-Vax-Email-Network-Analysis</id>
-   <content type="html"></content>
+   <content type="html">&lt;p&gt;I saw the email posting from &lt;a href='http://www.jmargolin.com/'&gt; Jed Margolin&lt;/a&gt; about his emails from Atari. I wanted to see if I can visualize the email as a network. Here is the brief writeup of this mini-project.&lt;/p&gt;
+
+&lt;h3 id='extracting_data'&gt;Extracting Data&lt;/h3&gt;
+
+&lt;p&gt;The emails are in text format for the years 1983 to 1992. Its available on his &lt;a href='http://www.jmargolin.com/vmail/vmail.htm'&gt;web site&lt;/a&gt; I wrote a simple Python script to extract the tuple (from person, to person, timestamp) for the entire set of email text files on his site. Ref#2 provides the python source for it. It uses a simple state machine model of 3 states - from/to/reset to extract and populate the data list which I save it as pickle.&lt;/p&gt;
+
+&lt;h3 id='getting_a_network'&gt;Getting a network&lt;/h3&gt;
+
+&lt;p&gt;I then used &lt;a href='http://networkx.github.io/'&gt; NetworkX &lt;/a&gt; library to create a GraphML file from the data extracted. You can see that in Ref#4&lt;/p&gt;
+
+&lt;p&gt;You can see the visualization of the network using &lt;a href='https://graph-tool.skewed.de/'&gt; graph-tool &lt;/a&gt; below -&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='graph' src='https://github.com/mobileraj/atariGraph/blob/master/vaxemail.png?raw=true' /&gt;&lt;/p&gt;
+
+&lt;h3 id='basic_analysis'&gt;Basic analysis&lt;/h3&gt;
+
+&lt;p&gt;Used networkX to do some basic degree distribution and pagerank analysis to get the top 5 accounts.&lt;/p&gt;
+
+&lt;p&gt;The degree distribution, as other email distributions it follows power law.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Degree Dist' src='https://github.com/mobileraj/atariGraph/blob/master/degree.png?raw=true' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Running pagerank analysis yields the top five accounts as -&lt;/p&gt;
+
+&lt;p&gt;Feel free to clone/fork my &lt;a href='https://github.com/mobileraj/atariGraph'&gt;Github project&lt;/a&gt; and play with it.&lt;/p&gt;
+
+&lt;h3 id='references'&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt; Source of the data - http://www.jmargolin.com/vmail/vmail.htm&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt; Python notebook to parse text and extract network list -https://github.com/mobileraj/atariGraph/blob/master/main.ipynb&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt; Github repo for this project - https://github.com/mobileraj/atariGraph&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;4&lt;/span&gt; Python notebook to get a GraphML file - https://github.com/mobileraj/atariGraph/blob/master/PyGraphML.ipynb&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;5&lt;/span&gt; Python notebook for doing graph analysis - https://github.com/mobileraj/atariGraph/blob/master/Graph%20Analysis.ipynb&lt;/p&gt;</content>
  </entry>
  
  <entry>

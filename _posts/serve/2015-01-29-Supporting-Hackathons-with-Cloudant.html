@@ -1,0 +1,17 @@
+<p>Liquid error: No such file or directory - /home/raj/projects/mobileraj.github.io/_posts/_includes As I start to attend hackathons around supporting devs to build apps with <a href='http://bluemix.net'>IBM Bluemix</a>, I kept being asked how to use some public dataset within mobile and web apps. When I was in San Francisco, I heard about the <a href='https://data.sfgov.org/'>Open Data</a> project. I looked at the Bicycle parking data <a href='https://data.sfgov.org/Transportation/Bicycle-Parking-Public-/w969-5mn4'>set</a> and got that into <a href='http://cloudant.com'>Cloudant</a> for use at hackathons.</p>
+
+<p>The URL for accessing the data is off my Cloudant DB https://mobileraj.cloudant.com/sfbikelots/</p>
+
+<p>I also created <em>index so you can use Cloudant <a href='https://docs.cloudant.com/cloudant_query.html'>Query</a> Finding all lots on Ellis: <div>
+  <pre><code class='bash'>curl -H &quot;Content-Type: application/json&quot; https://mobileraj.cloudant.com/sfbikelots/_find -X POST -d
+     '{
+        &quot;selector&quot;: {&quot;street&quot;:&quot;ELLIS&quot;},
+	&quot;fields&quot;: [&quot;street&quot;,&quot;address&quot;,&quot;mo_installed&quot;,&quot;yr_installed&quot;,&quot;placement&quot;,&quot;coords&quot;,&quot;latitude&quot;]
+     }'</code></pre>
+</div></em></p>
+
+<p><a href='https://docs.cloudant.com/geo.html#example:-querying-a-cloudant-geo-index'>Geo</a> specific queries are also supported - Getting all entries within a boundingbox: <div>
+  <pre><code class='bash'>https://mobileraj.cloudant.com/sfbikelots/_design/SpatialView/_geo/lots?bbox=37,-122,37.8,-122.5&amp;include_docs=true</code></pre>
+</div></p>
+
+<p>Email or tweet if you want to know more&#8230;</p>
