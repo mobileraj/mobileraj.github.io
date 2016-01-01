@@ -12,6 +12,7 @@ I finally broke down this year and started reading his letters which are publicl
 
 ### Downloading data
 I used wget and a simple python script to download the PDFs (since 1998) and extract the text using Ghostscript. For the plain HTML ones (pre1998) I used html2text and then extracted text. Since the writing were plain text and no fancy images etc. it was easy to get the data. Once extracted I had original letters in text file format from 1977-2014, a total of 38 files.
+
 ### Learning about Topic Models
 A separate technical note will follow this where I will document my learnings of this topic.
  
