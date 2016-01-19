@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Analyzing Buffetts Chairman letters using Watson Tone Analyzer"
+description: ""
+category: 
+tags: [Watson, AI]
+---
+{% include JB/setup %}
+
+Followup to the [Topic Modeling](http://mobileraj.github.io/2015/12/24/Analyzing-Buffet-Chairman-Letters/) of Warren Buffett's Chairman Letter to his shareholders, I decided to use Watson's experimental service - [Tone Analyzer](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/tone-analyzer.html) on IBM [Bluemix](bluemix.net).
+
+It was a simple exercise since I already had the data in text format. Workflow for this was -
+
+* Used my Bluemix account to instantiate a Tone Analyzer instance. Got the creds that I used below.
+* I wrote a simple Python script to collect the JSON from Tone Analyzer, using simple curl commands
+
+{% highlight javascript %}
+{
+curl -X POST -H "Content-type: text/plain" --data @2014.txt "https://xxxx:yyyy@gateway.watsonplatform.net/tone-analyzer-experimental/api/v1/tone" > 2014.tone.json
+}
+{% endhighlight %}
+
+* Wrote a Python script to get the normalized score for all the children per year in the YYYY.tone.json
+* Used R to analyze the data using MDS, Timeseries and Parallel Coordinates.
+
+Below is the Multi-Dimensional Scaling plot of the various tonal scores -
+
+![All years](
