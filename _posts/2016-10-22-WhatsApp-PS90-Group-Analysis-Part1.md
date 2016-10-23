@@ -11,19 +11,17 @@ I graduated from P.S.Senior Secondary School in Madras, India - class of 1990. R
 What follows is my initial analysis of the message flow through October 22 2016. I was warned that this group was active and voluminous compared to other groups...
 
 Here is the daily flow of messages since i joined till today...
-<img src="http://mobileraj.github.io/assets/ts1.png" width="600">
-
-![TS]({{ site.url }}/assets/ts1.png =700x300)
+<br/><img src="http://mobileraj.github.io/assets/ts1.png" width="700">
 
 Looking at how active messages are by the hour of the day (remember the times are my local time in CST). The members are globally distributed between US (east to west), Middle East, India and Singapore.
-![HourlyHist]({{ site.url }}/assets/hr_hist.png =600x400)
+<br/><img src="http://mobileraj.github.io/assets/hr_hist.png" width="600">
 
 Now if I looked at how the flow of messages were by day of the week and by hour of the day, I get an interesting pattern
-
-![Heatmap]({{ site.url }}/assets/wk_heatmap.png =600x400)
+<br/><img src="http://mobileraj.github.io/assets/wk_heatmap.png" width="600">
 
 Finally, I parsed out the messages with filters to show the word cloud
-![WordCloud]({{ site.url }}/assets/wc.png =600x400)
+<br/><img src="http://mobileraj.github.io/assets/wc.png" width="600">
+
 
 The best part of this was me trying to understand how WhatsApp stores the messages and how we can parse it relatively straightforward. I am looking for the conversation thread structure so I could do some network modeling, but alas I am unable to find the fight metadata in the export of the chat history to extract that information.
 
