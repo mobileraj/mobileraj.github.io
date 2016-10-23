@@ -11,6 +11,8 @@ I graduated from P.S.Senior Secondary School in Madras, India - class of 1990. R
 What follows is my initial analysis of the message flow through October 22 2016. I was warned that this group was active and voluminous compared to other groups...
 
 Here is the daily flow of messages since i joined till today...
+<img src="http://mobileraj.github.io/assets/ts1.png" width="600">
+
 ![TS]({{ site.url }}/assets/ts1.png =700x300)
 
 Looking at how active messages are by the hour of the day (remember the times are my local time in CST). The members are globally distributed between US (east to west), Middle East, India and Singapore.
