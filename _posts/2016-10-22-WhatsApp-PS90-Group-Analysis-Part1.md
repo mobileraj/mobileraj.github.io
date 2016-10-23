@@ -1,0 +1,28 @@
+---
+layout: post
+title: "WhatsApp PS90 Group Analysis - Part1"
+description: "Initial analysis of my highschool Chat group"
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+I graduated from P.S.Senior Secondary School in Madras, India - class of 1990. Recently I was added to the WhatsApp group of our class by an old friend. I was added as of October 14 2016.
+What follows is my initial analysis of the message flow through October 22 2016. I was warned that this group was active and voluminous compared to other groups...
+
+Here is the daily flow of messages since i joined till today...
+![TS]({{ site.url }}/assets/ts1.png)
+
+Looking at how active messages are by the hour of the day (remember the times are my local time in CST). The members are globally distributed between US (east to west), Middle East, India and Singapore.
+![HourlyHist]({{ site.url }}/assets/hr_hist.png)
+
+Now if I looked at how the flow of messages were by day of the week and by hour of the day, I get an interesting pattern
+
+![Heatmap]({{ site.url }}/assets/wk_heatmap.png)
+
+Finally, I parsed out the messages with filters to show the word cloud
+![WordCloud]({{ site.url }}/assets/wc.png)
+
+The best part of this was me trying to understand how WhatsApp stores the messages and how we can parse it relatively straightforward. I am looking for the conversation thread structure so I could do some network modeling, but alas I am unable to find the fight metadata in the export of the chat history to extract that information.
+
+I will keep trying to see if I can.....until then....
