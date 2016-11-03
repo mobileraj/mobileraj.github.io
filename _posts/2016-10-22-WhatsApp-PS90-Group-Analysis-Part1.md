@@ -35,6 +35,8 @@ I also created a visualization of the evolving network, which you can see on You
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CWOCAl8n50Y" frameborder="0" allowfullscreen></iframe>
 
+The git repo is [here](https://github.com/mobileraj/wsapp1)
+
 The best part of this was me trying to understand how WhatsApp stores the messages and how we can parse it relatively straightforward. I am looking for the conversation thread structure so I could do some network modeling, but alas I am unable to find the fight metadata in the export of the chat history to extract that information.
 
 I will keep trying to see if I can.....until then....
