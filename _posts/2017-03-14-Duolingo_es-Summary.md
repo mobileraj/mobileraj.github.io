@@ -23,7 +23,7 @@ Then it began...
 
 Although we couldnt do the week of spoken spanish in November, I kept at it making it just part of my day. I had 70+ day streak once, until work and life intervened. But I kept at it. Finally, I am declaring today that I am done with the first pass through the course.
 
-![Image](../assets/DuoComplete.jpg)
+<img src="mobileraj.github.io/assets/DuoComplete.jpg"></img>
 
 It was not easy. I had to make time. I had to prioritize 15mts or so every day and remind myself to do it -  even if it was 11:30 PM to get that lesson in before  midnight. It became an obsession at first, then a chore and finally second nature.
 
