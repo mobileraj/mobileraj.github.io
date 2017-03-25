@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Duolingo Spanish Learning Update"
+title: "Duolingo Spanish Learning"
 description: "Update on my spanish learning via Duolingo"
 category:
 tags: []
