@@ -71,9 +71,8 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  contact_path: /2021/01/26/contact-page
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  contact_path: /contact.html
+
 
    
   # Settings for analytics helper
