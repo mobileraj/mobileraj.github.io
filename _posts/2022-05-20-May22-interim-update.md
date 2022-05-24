@@ -71,7 +71,7 @@ and learning about the real stock market
 
 Our landscape view is changing a bit...
 
-<img src="https://brahminbeliever.com/plato-pics/FromPond.jpg" alt="open1">
+<img src="https://brahminbeliever.com/plato-pics/House2.jpg" alt="open1">
 
 with sunroom being finished
 
