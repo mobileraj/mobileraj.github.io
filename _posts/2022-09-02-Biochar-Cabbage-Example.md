@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 ## Prologue
-[E3 Biochar](https://tejasbuds.com/more-biochar.html) has been written about here and [Tejas Buds LLC](https://tejasbuds.com) has been marketing a pure version of this as soil amendment in the Ozarks for homesteaders and home gardeners. This article is about how one of the growers, used E3 biochar along with regenerative soil practices to produce a cabbage crop.
+[E3 Biochar](https://tejasbuds.com/e3) has been written about [here](https://tejasbuds.com/more-biochar.html) and [Tejas Buds LLC](https://tejasbuds.com) has been marketing a pure version of this as soil amendment in the Ozarks for homesteaders and home gardeners. This article is about how one of the growers, used E3 biochar along with regenerative soil practices to produce a cabbage crop.
 
 
 ## Setup
@@ -17,6 +17,7 @@ The overall setup of this garden is a repurposed front yard lawn, that was condi
     - spread of wood chips evenly across the predefined plot
     - addition of E3 Biochar through out the plot (dusting and spreading and not layering)
     - addition of more wood chips for cover
+    - no till or any major soil disturbance using machines
 
 In this plot, which sat through a winter, various vegetables were planted. Tomatoes, beets, turnips, peas and cabbage.
 The plot was only watered through rain and any other natural precipitation, and no well/city water.
@@ -26,7 +27,7 @@ This is a typical harvest of the cabbage crop and this one being on the small-me
 
 ![s1](https://brahminbeliever.com/cabbage-pics/cab1.JPG)
 
-![s2](https://brahminbeliever.com/cabbage-pics/cab2-size.JPG)
+![s2](https://brahminbeliever.com/cabbage-pics/cab2-size.JPG)v
 
 ![s1](https://brahminbeliever.com/cabbage-pics/cab2-size2.JPG)
 
