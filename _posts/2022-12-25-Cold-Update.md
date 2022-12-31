@@ -10,7 +10,7 @@ tags: []
 ## Prologue
 Winter weather hit us hard earlier than expected. When you are a farmer, there is no such thing as bad weather only bad clothing and being prepared.
 
-![img0](https://brahminbeliever.com/plato-pics/plato1.jpeg)
+![img0](https://brahminbeliever.com/plato-pics/plato1.jpg)
 
 ## Temps in teens
 As I was managing the farm solo, since my bride had to leave to spend time with her terminally ill dad, I was notified of the real cold spell we were anticipating in late October and early November. The forecast was for 12-18 F early mornings with breeze which might make it feel like 10F.
@@ -33,7 +33,7 @@ Few weeks later... the penultimate week in December, with my managing the farm s
 - Water bubblers to keep the flow going to keep it from deep freeze. I still had to go out and break ice twice a day sometimes. Then it stopped working during the coldest and cloudiest parts (since its solar)
 - North and West protection shield using pallets for bracing and straw for keeping it dry and insulated.
 
-![img1](https://brahminbeliever.com/plato-pics/subzero1.jpeg)
+![img1](https://brahminbeliever.com/plato-pics/cold-sheep.jpeg)
 
 ## Thru the major winter storm of Dec 2022
 - Saw the storm clouds roll in and it was ominous and the ambience quickly changed
