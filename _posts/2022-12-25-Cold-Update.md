@@ -21,10 +21,13 @@ I was not anticipating this hence had to quickly poll some of the local farmers 
 
 ![img2](https://brahminbeliever.com/plato-pics/cold-alpaca.jpeg)
 
+Some snow accumulated
+![img1](https://brahminbeliever.com/plato-pics/cold-west.jpeg)
+
 ## Temps in negative twenties
 Few weeks later... the penultimate week in December, with my managing the farm solo, I experienced -10F temps with -30F windchill on one night. There was snow through one day and constant wind for 2 days. It was the toughest week yet, but by the grace of God I was able to come through the other side.
 
-![img1](https://brahminbeliever.com/plato-pics/cold-west.jpeg)
+![img1](https://brahminbeliever.com/plato-pics/plato2.jpg)
 
 ## Preparations
 - I had started with ensuring our water hydrants at each of the sub areas on our paddock was 36inches below to survive freezing weather. This was complete with 3 specific outlets for the ewes, rams and the alpaca areas, in early October timeframe.
@@ -33,7 +36,7 @@ Few weeks later... the penultimate week in December, with my managing the farm s
 - Water bubblers to keep the flow going to keep it from deep freeze. I still had to go out and break ice twice a day sometimes. Then it stopped working during the coldest and cloudiest parts (since its solar)
 - North and West protection shield using pallets for bracing and straw for keeping it dry and insulated.
 
-![img1](https://brahminbeliever.com/plato-pics/cold-sheep.jpeg)
+![img1](https://brahminbeliever.com/plato-pics/storm.jpg)
 
 ## Thru the major winter storm of Dec 2022
 - Saw the storm clouds roll in and it was ominous and the ambience quickly changed
@@ -47,11 +50,16 @@ Few weeks later... the penultimate week in December, with my managing the farm s
 - I was helpless as you cant do anything as you watch the snow accumulate as the animals do their thing
 - One of the guineas tried getting on the roof and was stuck in snow, and has been limping and slowly recovering.
 - The donkeys had snow on them and I cleaned them up, apologizing to them and built another cover when my hands almost froze.
+
+![img1](https://brahminbeliever.com/plato-pics/snow-dec2.jpg)
+
 - You can prepare the best, but even that can be torn to shreds with the Ozarks winds
 - I was thankful for loyal animals inspite of being hurt by cold, to come to me everytime I visited them and lick me or show me love. My meremma guard dogs were Godsent.
 - Layered multiple clothing - 2 socks, 5 top layer, 3 bottom layer, cotton/beanie/muffler/hoodie for head. This sort of kept me warm but also impeded my motions, but it was survival mode, so did things slower. I had to keep coming into the garage to warm up as my nose and face would freeze
 - Water froze in barn, so needing to keep giving bunnies, alpacas and pups water taking turns, buckets for the larger animals, every few hours
 - Being alone through this was the worst and best part, when I realized, I could only rely on the Almighty, so that was an encouragement enough for me to pull through - *Even though I walk through the valley of shadow of death, I fear no evil as You are with me*. I had to rely on the Most High, both for life, but also bodily wisdom during the working time to make sure what He created can be put to good use and the support needed. I was alone with no other human help, so had to call on the Almighty often as I was stuck in the middle of nowhere pads for several minutes at a time due to the freezing cold. I was helpless and discouraged several times, but it lasted but few minutes as there was repreieve, even when the clouds and the day looked bleak. I am thankful also to have good neighbors and friends who would check in on me every day, to make sure I was not stuck in the middle of the field frozen :)
+
+![img1](https://brahminbeliever.com/plato-pics/snow-dec.jpg)
 
 ## Learnings
 - Animals are helpless, although they are created resistant
